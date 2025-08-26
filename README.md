@@ -87,12 +87,17 @@ pip install -r requirements.txt
 
 ### Lancement du Dashboard
 
-**Option 1 : Commande directe**
+**Option 1 : Version Standard**
 ```bash
 streamlit run dashboard.py
 ```
 
-**Option 2 : Scripts de lancement**
+**Option 2 : Version Enrichie (Recommandée)**
+```bash
+streamlit run dashboard_enhanced.py
+```
+
+**Option 3 : Scripts de lancement**
 ```bash
 # Windows
 run_dashboard.bat
@@ -101,6 +106,12 @@ run_dashboard.bat
 chmod +x run_dashboard.sh
 ./run_dashboard.sh
 ```
+
+#### 🆕 Nouveautés de la version enrichie :
+- **Plus de graphiques** : Distribution des durées, ratios par catégorie, analyse des outliers
+- **Analyses détaillées** : Explications contextuelles sous chaque visualisation
+- **Page Opportunités** : Score d'opportunité et recommandations stratégiques
+- **Insights avancés** : Identification des niches sous-servies et marchés saturés
 
 ### Accès au Dashboard
 - **URL locale** : http://localhost:8501
